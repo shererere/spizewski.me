@@ -18,7 +18,7 @@ body, html {
   transform: scale(1.15) translateZ(0);
 }
 
-.site__wrapper {
+.site {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ body, html {
   z-index: 0;
 }
 
-.header__wrapper:before {
+.header:before {
   content: '';
   position: absolute;
   top: 0;
@@ -44,7 +44,7 @@ body, html {
   z-index: -1;
 }
 
-.header__wrapper {
+.header {
   background: linear-gradient(to top, #003232, #0f3443);
   width: 100%;
   height: 78vh;
@@ -56,7 +56,7 @@ body, html {
   z-index: 1;
 }
 
-.header {
+.header__wrapper {
   margin: 50px 0 0 0;
   padding: 0;
   text-align: center;
@@ -76,7 +76,7 @@ body, html {
   font-weight: 600;
 }
 
-.about__wrapper {
+.about {
   height: 26vh;
   width: 100%;
   background: #003232;
@@ -100,7 +100,7 @@ body, html {
 }
 
 
-.info__wrapper {
+.info {
   padding: 30px;
   display: flex;
   justify-content: space-around;
@@ -148,7 +148,7 @@ body, html {
 }
 
 
-.site__logo {
+.logo {
   position: absolute;
   left: 8vw;
   top: 8vh;
@@ -172,7 +172,7 @@ body, html {
   font-weight: 600;
 }
 
-.encourager__wrapper {
+.encourager {
   margin-top: -27px;
   width: 100%;
   background: linear-gradient(to top, #003232, #0f3443);
@@ -180,7 +180,7 @@ body, html {
   position: relative;
 }
 
-.encourager__wrapper:before {
+.encourager:before {
   content: '';
   display: block;
   position: absolute;
@@ -203,13 +203,13 @@ body, html {
   text-align: center;
 }
 
-.portfolio__wrapper {
+.portfolio {
   width: 100%;
   display: block;
   padding: 72px 0;
 }
 
-.portfolio {
+.portfolio__wrapper {
   display: block;
   margin: 0 auto;
   max-width: 1200px;
@@ -325,14 +325,14 @@ body, html {
   opacity: 1;
 }
 
-.footer__wrapper {
+.footer {
   background: linear-gradient(to top, #003232, #0f3443);
   padding: 72px 0;
   width: 100%;
   position: relative;
 }
 
-.footer__wrapper:before {
+.footer:before {
   content: '';
   display: block;
   position: absolute;
@@ -344,7 +344,7 @@ body, html {
   opacity: 0.1
 }
 
-.footer {
+.footer__wrapper {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -421,7 +421,7 @@ body, html {
 
 
 @media all and (max-width: 1200px) {
-  .site__logo {
+  .logo {
       left: 3vw;
       top: 3vw;
   }
@@ -439,7 +439,7 @@ body, html {
     padding: 24px 0;
   }
 
-  .portfolio__wrapper {
+  .portfolio {
     padding: 72px 30px;
   }
 
@@ -447,11 +447,11 @@ body, html {
     font-size: 5vw;
   }
 
-  .footer__wrapper {
+  .footer {
     padding: 72px 30px;
   }
 
-  .footer {
+  .footer__wrapper {
     flex-direction: column;
   }
 
@@ -486,11 +486,11 @@ body, html {
     font-size: 2.5vw;
   }
 
-  .about__wrapper {
+  .about {
     padding: 0 18px;
   }
 
-  .info__wrapper {
+  .info {
     flex-direction: column;
   }
 
@@ -527,7 +527,7 @@ body, html {
     height: 6px;
   }
 
-  .portfolio__wrapper {
+  .portfolio {
     margin-top: -42px;
     padding-top: 0;
   }
@@ -545,7 +545,7 @@ body, html {
     opacity: 1;
   }
 
-  .encourager__wrapper {
+  .encourager {
     display: none;
   }
 
