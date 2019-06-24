@@ -6,107 +6,35 @@
 
     <title>Rafał Spiżewski</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo:300,400,600&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&amp;subset=latin-ext" rel="stylesheet preload" as="font">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="header__heading">CZEŚĆ</h1>
 
-    <div class="site">
-      <section class="header">
-        <h1 class="header__wrapper fadeInOut">
-            <span class="header__text">Web</span>
-            <span class="header__text">developer</span>
-            <span class="header__text">z</span>
-            <span class="header__text header__text--bold">ambicjami</span>
-        </h1>
-      </section>
-
-      <section class="about">
-        <h2 class="about__text">
-          Cześć! Mam na imię Rafał. Tworzę przyjazne i funkcjonalne aplikacje dla małych i większych firm. W mojej ofercie znajdziesz między innymi:
+        <h2 class="header__text">
+          Jestem Rafał.
+          <span class="header__accent header__accent--blue">Projektuję</span>
+          i <br/> 
+          <span class="header__accent header__accent--green">tworzę</span> 
+          strony internetowe.
         </h2>
-      </section>
 
-      <section class="info">
-        <div class="info__box">
-          <img src="./img/smartphone.svg" alt="icon" class="info__icon">
-          <h3 class="info__header">Aplikacje</h3>
-          <div class="info__description">
-            Programy komputerowe i aplikacje mobilne.
-          </div>
-        </div>
-        <div class="info__box">
-          <img src="./img/website.svg" alt="icon" class="info__icon">
-          <h3 class="info__header">Strony internetowe</h3>
-          <div class="info__description">
-            Strony wizytówki, szablony, CMS.
-          </div>
-        </div>
-        <div class="info__box">
-          <img src="./img/leaflet.svg" alt="icon" class="info__icon">
-          <h3 class="info__header">Projekty graficzne</h3>
-          <div class="info__description">
-            Loga, bannery, plakaty, wizytówki i inne.
-          </div>
-        </div>
-      </section>
-
-      <section class="encourager">
-        <h3 class="encourager__text">Rozwiązania szyte na miarę!</h3>
-      </section>
-
-      <section class="portfolio">
-        <div class="portfolio__wrapper">
-          <h3 class="portfolio__title">
-            Portfolio
-          </h3>
-          <div class="portfolio__items">
-            <a href="http://fhupixel.pl" class="portfolio__item portfolio__item--fhupixel">
-              <span class="portfolio__label">FHU Pixel</span>
-              <span class="portfolio__description">Szablon Wordpress</span>
-            </a>
-            <a href="https://adimoto.pl" class="portfolio__item portfolio__item--adimoto">
-              <span class="portfolio__label">AdiMoto</span>
-              <span class="portfolio__description">Szablon Wordpress</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="footer__wrapper">
-          <div class="footer__bio">
-            <div class="footer__title">Umiejętności</div>
-            <p class="footer__text">
-              HTML5, CSS3, LESS, JavaScript (ES6+), jQuery, React, Redux, Jest Enzyme, Webpack, GIT, JIRA
-            </p>
-          </div>
-          <div class="footer__contact">
-            <div class="footer__title">Kontakt</div>
-            <div class="footer__icons">
-              <a class="footer__link" href="https://github.com/shererere">
-                <img class="footer__icon" src="./img/github.svg" alt="icon" />
-              </a>
-              <a class="footer__link" href="https://www.linkedin.com/in/rafał-spiżewski-7b0712164">
-                <img class="footer__icon" src="./img/linkedin.svg" alt="icon" />
-              </a>
-              <a class="footer__link" href="https://www.facebook.com/rafal.spizewski">
-                <img class="footer__icon" src="./img/facebook.svg" alt="icon" />
-              </a>
-              <a class="footer__link" href="mailto:rafal.spizewski@gmail.com">
-                <img class="footer__icon" src="./img/mail.svg" alt="icon" />
-              </a>
+        <div class="header__link">
+          <button class="button">
+            <span class="button__text">Dowiedz się więcej</span>
+            <div class="button__icon">
+              <object data="assets/arrow.svg" type="image/svg+xml"></object>
             </div>
-          </div>
+          </button>
         </div>
-      </footer>
+      </div>
     </div>
 
-    <div class="logo">
-      <span class="logo__text logo__text--bold">Spiżewski</span>
-      <span class="logo__text">.me</span>
-    </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
