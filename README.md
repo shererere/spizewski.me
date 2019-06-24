@@ -1,2 +1,2 @@
-# spizewski.me
-Basically, my own page.
+# My portfolio
+Just my own page :)
